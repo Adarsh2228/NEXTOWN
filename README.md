@@ -18,11 +18,11 @@ In an age dominated by large eCommerce giants, many local vendors struggle to cr
 ---
 
 ## 👥 Team Members
-
-- **Dhiren Pamnani** (2103129)
-- **Himanshu Pandey** (2103130)
-- **Neeraj Parwani** (2103131)
-- **Adarsh Shukla** (2103167)
+- **Adarsh Shukla**
+- **Dhiren Pamnani** 
+- **Himanshu Pandey** 
+- **Neeraj Parwani** 
+ 
 
 **Guide:** Ms. Vijaya Padmadas  
 **Institution:** Thadomal Shahani Engineering College, University of Mumbai (2024–2025)
