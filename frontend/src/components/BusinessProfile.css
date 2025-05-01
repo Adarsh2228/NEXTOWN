@@ -1,0 +1,181 @@
+.Best-month-pred {
+  text-align: center;
+  padding: 20px;
+  width: 31%;
+  max-width: 600px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: absolute;
+  left: 38%;
+  top: 1%;
+  height: 36%;
+}
+
+.create-post-section {
+  position: absolute;
+  top: 22%;
+  right: 1%;
+  transform: translateY(-50%);
+  padding: 20px;
+  width: 289px;
+  box-shadow: 0px 4px 10px rgba(5, 4, 4, 0.1);
+  border-radius: 10px;
+  height: 36%;
+}
+
+.post-list-section {
+  position: absolute;
+
+  top: 83%;
+
+  right: 1%;
+  transform: translateY(-50%);
+  padding: 20px;
+  width: 94%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 49%;
+}
+
+.business-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#bpbtn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 264px; /* Adjust the width as needed */
+  text-align: center;
+}
+
+#bpbtn:hover {
+  background-color: #0056b3;
+}
+
+
+#bpbtn.clicked {
+  animation: rocketAnimation 1.5s ease-in-out forwards, explode 0.8s ease-out 1.5s forwards;
+}
+
+@keyframes rocketAnimation {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(150px) translateY(-50px) scale(0.7);
+  }
+  100% {
+    transform: translateX(300px) translateY(-100px) scale(0.5);
+  }
+}
+
+@keyframes explode {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(2); background-color: red; box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.8); }
+  100% { opacity: 0; transform: scale(3); }
+}
+
+.post-section {
+  display: flex
+;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin-top: 48px;
+  width: 100%;
+}
+
+.post-section button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevent text from breaking */
+}
+
+.post-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Ensuring the buttons stay inline and have consistent size */
+#star_cht,
+#qa-button,
+#chat-requests-btn,
+#bpbtn {
+  min-width: 150px; /* Ensure uniform button width */
+  text-align: center;
+}
+
+/* Styling for specific buttons */
+.promotion-button {
+  background-color: #28a745;
+}
+
+.promotion-button:hover {
+  background-color: #218838;
+}
+
+.chat-requests-button {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.chat-requests-button:hover {
+  background-color: #e0a800;
+}
+
+.qa-button {
+  background-color: #17a2b8;
+}
+
+.qa-button:hover {
+  background-color: #138496;
+}
+
+
+.profile-button {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: auto; /* ensures button width adjusts to content */
+  white-space: nowrap; /* prevents text wrapping */
+}
+
+.profile-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.profile-button:active {
+  transform: scale(0.95);
+}
+
+.owner-service-btn {
+  background: linear-gradient(135deg, #28a745, #218838);
+}
+
+.summarizer-btn {
+  background: linear-gradient(135deg, #ff6f61, #d63384);
+}

@@ -1,0 +1,105 @@
+/* BusinessCard.css */
+.search-bar {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the search bar in the flex container */
+    margin-bottom: 20px; /* Space below the search bar */
+    position: relative; /* Allow for positioning if needed */
+  }
+  
+  .search-input {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit maximum width */
+    padding: 10px;
+    border: 2px solid #2a9d8f; /* Teal border */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    margin-right: 23px; /* Space between input and button */
+  }
+  
+  .add-business-button {
+    background-color: #2a9d8f; /* Same color as the input border */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40px; /* Fixed width for the button */
+    height: 41px; /* Ensure height matches the input */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .add-business-button:hover {
+    background-color: #1e827a; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+  }
+  
+.business-card {
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #e1e1e1; /* Light gray border for definition */
+  }
+  
+  .business-card:hover {
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .business-card h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2c3e50; /* Darker color for the title */
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Slightly increased letter spacing */
+  }
+  
+  .business-card p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #34495e; /* A more muted blue for text */
+    line-height: 1.5; /* Improved line height for readability */
+  }
+  
+  .business-card p.category {
+    font-style: italic;
+    color: #8e44ad; /* Purple color for categories */
+  }
+  
+  .business-card p.phone,
+  .business-card p.email {
+    color: #2980b9; /* Bright blue for phone and email */
+    font-weight: bold;
+  }
+  
+  .business-card p.address {
+    font-size: 12px;
+    color: #7f8c8d; /* Gray color for address */
+  }
+  
+  .business-card p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Add a transition for paragraph colors */
+  .business-card p {
+    transition: color 0.3s ease-in-out; /* Transition for text color */
+  }
+  
+  .business-card:hover p {
+    color: #2980b9; /* Change text color on hover */
+  }
+  
+  .business-card:hover p.category {
+    color: #9b59b6; /* Change category color on hover */
+  }
+  

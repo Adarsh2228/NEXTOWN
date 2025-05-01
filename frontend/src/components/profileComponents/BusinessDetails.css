@@ -1,0 +1,52 @@
+/* BusinessDetails.css */
+
+.business-details {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  padding: 39px;
+  background-clip: padding-box;
+  box-shadow: -5px 25px 35px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  
+    height: 330px;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  transform: translateX(-50%);
+  transition: all 0.3sease-in-out;
+  background: none;
+  width: 34%;
+}
+
+
+.business-details:hover {
+  /* Intensify the shadow and border glow on hover */
+  box-shadow: -8px 30px 45px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 150, 255, 0.6); /* Glowing border effect */
+}
+
+  
+.business-name {
+  color: #0f0d08;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+  
+  .detail-item {
+    margin-bottom: 10px; /* Space below each detail item */
+    font-size: 1rem; /* Regular font size */
+  }
+  
+  
+  
+  .detail-item span {
+    color: #e3d1df;
+    font-weight: bold; /* or use a specific value like 600, 700, etc. */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adjust the values and color for your desired shadow effect */
+}
+
+.detail-item span {
+  color: black;
+  font-weight: bold; /* or use a specific value like 600, 700, etc. */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adjust the values and color for your desired shadow effect */
+}

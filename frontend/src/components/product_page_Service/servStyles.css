@@ -1,0 +1,62 @@
+.serv-3d-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ddd;
+  /* background-color: #f7f7f7; */
+}
+
+.serv-add-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.serv-add-form-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.media-preview {
+  margin-top: 20px;
+}

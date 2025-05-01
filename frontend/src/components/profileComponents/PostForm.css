@@ -1,0 +1,73 @@
+.custom-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+
+    /* Border and border-radius */
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-clip: padding-box; /* Ensures the glow stays on the border */
+    
+    /* Glowing effect */
+    box-shadow: 0 0 15px rgba(0, 150, 255, 0.5), 0 0 25px rgba(0, 150, 255, 0.3);
+    
+    /* Smooth transitions on hover and focus */
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-post-form:hover {
+    /* Enhance glow and shadow on hover */
+    box-shadow: 0 0 20px rgba(0, 150, 255, 0.7), 0 0 35px rgba(0, 150, 255, 0.4);
+    border: 2px solid rgba(0, 150, 255, 0.6); /* Glowing border */
+}
+
+  
+  .media-selection-group,
+  .description-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .media-label,
+  .description-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .media-file-input,
+  .post-description-textarea,
+  .submit-post-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .post-description-textarea {
+    min-height: 34px;
+    resize: vertical;
+}
+  
+  .selected-media-preview {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .media-preview-image,
+  .media-preview-video {
+    max-width: 100%;
+    max-height: 250px;
+  }
+  
+  .submit-post-button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-post-button:hover {
+    background-color: #0056b3;
+  }
+  

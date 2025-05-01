@@ -1,0 +1,134 @@
+/* ServCard.css */
+.serv-card-wrapper {
+  perspective: 1000px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.serv-card-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.serv-card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+}
+
+.image-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.serv-card-wrapper:hover .image-container img {
+  transform: scale(1.05);
+}
+
+.serv-card-info {
+  padding: 20px;
+}
+
+.serv-card-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.category {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.price del {
+  color: #999;
+  margin-right: 5px;
+}
+
+.price strong {
+  color: #e53935;
+  font-size: 18px;
+}
+
+.discount {
+  color: #4caf50;
+  font-size: 14px;
+}
+
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.edit-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #1976D2;
+}
+
+.delete-btn {
+  background-color: #F44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #D32F2F;
+}
+
+.buy-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buy-btn:hover {
+  background-color: #388E3C;
+}
+
+.cart-btn {
+  background-color: #FF9800;
+  color: white;
+}
+
+.cart-btn:hover {
+  background-color: #F57C00;
+}
