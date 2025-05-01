@@ -155,7 +155,5 @@ Special thanks to **TSEC**, University of Mumbai, for providing the opportunity 
 ---
 
 > Built with ❤️ by Group 28 – BE Computer Engineering (2024–2025)
-```
 
----
 
